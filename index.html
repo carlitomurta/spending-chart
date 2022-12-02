@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.min.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Spending Chart</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div>
+          <p class="label">My balance</p>
+          <p class="balance">$921.48</p>
+        </div>
+        <img src="images/logo.svg" alt="icon" />
+      </div>
+      <div class="card">
+        <p class="title">Spending - Last 7 days</p>
+        <div class="chart">
+          <div class="bars">
+            <div class="bar" data-value="25">
+              <p>mon</p>
+              <div class="tooltip">$21.04</div>
+            </div>
+            <div class="bar" data-value="60">
+              <p>tue</p>
+              <div class="tooltip">$35.20</div>
+            </div>
+            <div class="bar" data-value="100">
+              <p>wed</p>
+              <div class="tooltip">$52.36</div>
+            </div>
+            <div class="bar" data-value="50">
+              <p>thu</p>
+              <div class="tooltip">$31.07</div>
+            </div>
+            <div class="bar" data-value="35">
+              <p>fri</p>
+              <div class="tooltip">$28.65</div>
+            </div>
+            <div class="bar" data-value="82">
+              <p>sat</p>
+              <div class="tooltip">$43.54</div>
+            </div>
+            <div class="bar" data-value="45">
+              <p>sun</p>
+              <div class="tooltip">$29.87</div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="footer">
+          <div class="total">
+            <p class="label">Total this month</p>
+            <p class="value">$478.33</p>
+          </div>
+          <div class="percent">
+            <p class="value">+2.4%</p>
+            <p class="label">from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.min.js"></script>
+  </body>
+</html>
